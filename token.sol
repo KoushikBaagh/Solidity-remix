@@ -26,8 +26,8 @@ function mintTo(uint amount, address _to) public {
 }
 
 function transfer(uint amount, address _to) public {
-    uint existingBalances = balances[msg.sender];
-    require(existingBalances>=amount);
+
+    require(balances[msg.sender]>=amount);
     balances[msg.sender] -= amount;
     balances[_to] += amount;
 

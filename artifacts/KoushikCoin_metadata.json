@@ -159,11 +159,11 @@
 	},
 	"sources": {
 		"token.sol": {
-			"keccak256": "0x36ca076d6db70c34df0359068c17c896a0b19eb92ead9b3804aaa4483a4896b6",
+			"keccak256": "0xe0cca6b3c990e206a32fd74a2b6623c7444bb2abc6416262f4f38a4436d76def",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4bc89309901f809a4b57eaa4c2eaae12693c676309e9ce5af059a7b238286768",
-				"dweb:/ipfs/QmTZr3ZbCnvLRbCBLK8UbnvHi5HjUUXemy74p75Ps8wnEB"
+				"bzz-raw://00b4d3a1106208298f994ea8fd1f4879f916da5f0c26d6d364d0b1385bdea913",
+				"dweb:/ipfs/QmP3tuBiuiWsGWZVcvENRaWEpKXt6Y9JwEKP6435q1mmKx"
 			]
 		}
 	},
