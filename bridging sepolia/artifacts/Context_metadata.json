@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bridging sepolia/PolygonBridge.sol": "Context"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bridging sepolia/PolygonBridge.sol": {
+			"keccak256": "0x6f599bddbc0335ebe05acc2b2e33fd41f3a5afea50a659d93f8db1a21e6a0c4a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f0fd5b305853aceaae01857e69aaa093113a65a4ead488a5784c69567eb90cc",
+				"dweb:/ipfs/QmTvhDNbkJvdCrM7Ta6w2vVErKCkonj7ZvSpEDAbWbygTc"
+			]
+		}
+	},
+	"version": 1
+}

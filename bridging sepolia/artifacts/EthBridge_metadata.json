@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "ETHLocked",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "lock",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bridging sepolia/EthBridge.sol": "EthBridge"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bridging sepolia/EthBridge.sol": {
+			"keccak256": "0x84acf5cdc81fd4ca84374d987ec1767cd4d73307865de77d50f528c658fd8581",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://85ba851a7b4a9dfc60e7b9efa055e3e5b067644cc881242cfb79a550381f0500",
+				"dweb:/ipfs/QmbKPXJ2sCXvp7VBTgr41vhUKAjQvAGcE994cXdCxhRJZW"
+			]
+		}
+	},
+	"version": 1
+}
